@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header-nav">
+            <nav>
+                <a href="portfolio.html"> Home </a>
+                <a href="projects.html"> Projects </a>
+                <a href="about.html"> About </a>
+                <a href="contact.html"> Contact </a>
+            </nav>
+        </div>
+    </div>
+    <main class="container-main">
+        <!-- make it type out like a code style -->
+        <article>
+            <div class="container-ask">
+                <h2> Contact Me </h2>
+                <h4> Let's get in touch! </h4>
+            </div>
+        </article>
+        <table>
+            <tbody>
+                <td>
+                    <form
+                    action="https://afternoon-dusk-02232.herokuapp.com/api"
+                    method="POST"
+                    >
+                        <label for="fullName"> Full Name: </label> <br />
+                        <input type="text" name="fullName" id="fullName"> <br />
+                        <label for="email"> Email: </label> <br />
+                        <input type="text" name="email" id="email"> <br />
+                        <label for="phoneNumber"> Phone Number: </label> <br />
+                        <input type="number" name="phoneNumber" id="phoneNumber"> <br />
+                        <input type="submit">
+                    </form>
+                </td>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <a href="portfolio.html"> Home </a>
+        <a href="projects.html"> Projects </a>
+        <a href="about.html"> About </a>
+        <a href="contact.html"> Contact </a>
+    <footer>
+</body>
+</html>
